@@ -1,0 +1,9 @@
+{
+  "$schema": "https://pi.dev/schemas/settings.schema.json",
+  "theme": "oxcode",
+  "defaultThinkingLevel": "high",
+  "quietStartup": "header",
+  "defaultTools": ["+grep", "+find", "+ls"],
+  "enableInstallTelemetry": false,
+  "compaction": { "enabled": true, "keepRecentTokens": 30000 }
+}

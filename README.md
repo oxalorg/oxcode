@@ -9,11 +9,11 @@ An opinionated coding-agent harness built on [pi](https://pi.dev). It ships as o
 
 ```bash
 # Standalone harness (pi is pulled in as a peer dependency)
-npm i -g oxcode            # or: npm i -g git+https://github.com/<you>/oxcode
+npm i -g oxcode            # or: npm i -g git+https://github.com/oxalorg/oxcode
 oxcode
 
 # Or add to an existing pi
-pi install npm:oxcode      # or: pi install git:github.com/<you>/oxcode
+pi install npm:oxcode      # or: pi install git:github.com/oxalorg/oxcode
 ```
 
 Log in once inside oxcode with `/login`, or set a provider key in the environment (`ANTHROPIC_API_KEY`, `OPENROUTER_API_KEY`, ...). oxcode keeps its own `auth.json`, sessions and settings in `~/.oxcode/agent`, separate from `~/.pi/agent`. Set `OXCODE_HOME` to move it.
